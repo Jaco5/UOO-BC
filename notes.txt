@@ -1,1 +1,14 @@
-T
+will calc (max bonus of skill*skillAmount/100) for each and total it as 
+totalDmgBonus.
+
+-----------
+
+add other bonus'
+
+object contains skills and bonus value at GM as key pairs
+// skill: [0dmg,1AR,2etc...]
+9 form list inputs populated from object + number input 
+ // skillsObject.tracking[0] * (skillAmount/100) 
+
+button on form triggers functions that pull values from the list above to calc
+ulate the bonus'
